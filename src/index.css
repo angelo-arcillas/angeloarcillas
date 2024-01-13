@@ -1,0 +1,94 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  /* ++> Respect browser scrollbar */
+  /* body {
+    margin-right: calc(-1 * (100vw - 100%));
+    width: 100%;
+  } */
+
+  /* .w-screen {
+    width: 100vw;
+    max-width: 100%;
+  } */
+
+  /* ++> End respect browser scrollbar */
+
+  .bug {
+    border: 1px solid red !important;
+  }
+
+  /* # Base */
+  .font-sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .heading-1 {
+    @apply text-4xl font-bold mb-4;
+  }
+
+  .heading-2 {
+    @apply text-3xl font-bold mb-3;
+  }
+
+  .heading-3 {
+    @apply text-2xl font-bold mb-2;
+  }
+
+  .button {
+    @apply px-4 py-2 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-700;
+  }
+
+  .paragraph {
+    @apply text-base leading-6;
+  }
+
+  .label {
+    @apply block mb-px text-sm font-medium;
+  }
+
+  .input {
+    @apply block w-full px-3 py-2 border rounded-md focus:ring-1 focus:ring-indigo-500 focus-visible:outline-none focus:border-indigo-500;
+  }
+
+  /* # Containers */
+  .main-container {}
+
+  .section {
+    margin-bottom: 5rem;
+    padding: 2rem;
+  }
+
+  /* # States */
+  .hover-ring {
+    @apply hover:ring hover:ring-blue-400 hover:ring-offset-1;
+  }
+
+  /* # Components */
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+
+  /* Track */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+
+  /* Handle */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(79, 70, 229, .5);
+    /* border-top: 30px solid gray; */
+  }
+
+  /* Handle on hover */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(79, 70, 229, .75);
+  }
