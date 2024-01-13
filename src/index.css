@@ -31,19 +31,19 @@
   }
 
   .heading-1 {
-    @apply text-4xl font-bold mb-4;
+    @apply mb-4 text-4xl font-bold;
   }
 
   .heading-2 {
-    @apply text-3xl font-bold mb-3;
+    @apply mb-3 text-3xl font-bold;
   }
 
   .heading-3 {
-    @apply text-2xl font-bold mb-2;
+    @apply mb-2 text-2xl font-bold;
   }
 
   .button {
-    @apply px-4 py-2 rounded bg-blue-500 text-white cursor-pointer hover:bg-blue-700;
+    @apply px-4 py-2 text-white bg-blue-500 rounded cursor-pointer hover:bg-blue-700;
   }
 
   .paragraph {
@@ -91,4 +91,8 @@
   /* Handle on hover */
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: rgba(79, 70, 229, .75);
+  }
+
+  a.active {
+    @apply text-indigo-600 dark:text-white;
   }
