@@ -4,6 +4,7 @@ import { Home } from './Pages/Home';
 import { Posts } from './Pages/Posts';
 import { Register } from './Pages/Auth/Register';
 import { Login } from './Pages/Auth/Login';
+import { Footer } from './Components/Footer/Footer';
 
 const App = () => {
   // ideas
@@ -16,7 +17,7 @@ const App = () => {
       <main className="min-h-screen bg-white font-inter dark:bg-gray-900">
         <BrowserRouter>
           <Header />
-          <section className="mx-auto max-w-screen-2xl">
+          <section className="mx-auto min-h-[70vh] max-w-screen-2xl">
             <div>
               <Routes>
                 <Route path="/posts" Component={Posts} />
@@ -28,6 +29,7 @@ const App = () => {
             </div>
           </section>
         </BrowserRouter>
+        <Footer />
       </main>
     </>
   );
