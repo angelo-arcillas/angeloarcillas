@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export const Header = () => {
   const [isShowMenu, setIsShowMenu] = useState<boolean>(false);
   return (
-    <header className=" bg-white border-gray-200 px-4 md:px-6 py-2.5 dark:bg-gray-800 text-white">
+    <header className=" bg-white border-gray-200 px-4 md:px-6 py-2.5 dark:bg-gray-800 dark:text-white">
       <div className="mx-auto max-w-screen-2xl">
         <nav className="bg-white border-gray-200 px-4 md:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
