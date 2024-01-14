@@ -1,13 +1,17 @@
-import Avatar from './../assets/me.png'
+import Avatar from './../assets/me.png';
 
 export const Home = () => {
   return (
     <section className="">
       <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
-
-    <figure className="block mb-6">
-      <img src={Avatar} alt="Angelo Arcillas Image" className='w-[10rem] md:w-[20rem] rounded-full mx-auto' />
-    </figure>
+        <figure className="block mb-6">
+          <img
+            src={Avatar}
+            alt="Angelo Arcillas Image"
+            loading="lazy"
+            className="w-[10rem] md:w-[20rem] rounded-full mx-auto"
+          />
+        </figure>
 
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Angelo Arcillas
@@ -24,7 +28,7 @@ export const Home = () => {
         <div className="flex flex-col mb-8 space-y-4 lg:mb-16 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="https://github.com/zerexei"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-900"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-indigo-700 rounded-lg hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 dark:focus:ring-indigo-900"
           >
             View Projects
             <svg
@@ -61,18 +65,73 @@ export const Home = () => {
             FEATURED IN
           </span>
           <div className="flex flex-wrap items-center justify-center gap-8 mt-8 text-gray-500 sm:justify-between">
-            <a href="https://github.com/zerexei" className="text-2xl font-extrabold hover:text-white">Github</a>
-            <a href="https://www.linkedin.com/in/angeloarcillas" className="text-2xl font-extrabold hover:text-white">LinkedIn</a>
-            <a href="https://laracasts.com/@zerexei" className="text-2xl font-extrabold hover:text-white">Laracast</a>
-            <a href="https://medium.com/@angeloarcillas64" className="text-2xl font-extrabold hover:text-white">Medium</a>
-            <a href="https://discord.gg/programming" className="text-2xl font-extrabold hover:text-white">Discord</a>
-            <a href="https://www.twitch.tv/zerexei" className="text-2xl font-extrabold hover:text-white">Twitch</a>
-            <a href="https://www.youtube.com/@daaaave" className="text-2xl font-extrabold hover:text-white">Youtube</a>
-            <a href="https://www.instagram.com/angelodaaaave/" className="text-2xl font-extrabold hover:text-white">Instagram</a>
+            <a
+              href="https://github.com/zerexei"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/angeloarcillas"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://laracasts.com/@zerexei"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Laracast
+            </a>
+            <a
+              href="https://medium.com/@angeloarcillas64"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Medium
+            </a>
+            <a
+              href="https://discord.gg/programming"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Discord
+            </a>
+            <a
+              href="https://www.twitch.tv/zerexei"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Twitch
+            </a>
+            <a
+              href="https://www.youtube.com/@daaaave"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Youtube
+            </a>
+            <a
+              href="https://www.instagram.com/angelodaaaave/"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Instagram
+            </a>
 
-            <a href="https://www.buymeacoffee.com/zerexei" className="text-2xl font-extrabold hover:text-white">BuyMeACoffee</a>
-            <a href="https://www.patreon.com/AngeloArcillas" className="text-2xl font-extrabold hover:text-white">Patreon</a>
-            <a href="https://paypal.me/zerexei" className="text-2xl font-extrabold hover:text-white">Paypal</a>
+            <a
+              href="https://www.buymeacoffee.com/zerexei"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              BuyMeACoffee
+            </a>
+            <a
+              href="https://www.patreon.com/AngeloArcillas"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Patreon
+            </a>
+            <a
+              href="https://paypal.me/zerexei"
+              className="text-2xl font-extrabold hover:text-white"
+            >
+              Paypal
+            </a>
           </div>
         </div>
       </div>

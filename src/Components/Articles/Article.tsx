@@ -30,6 +30,7 @@ export const Article = ({ title, date, likes }: ArticleProp) => {
       <img
         src={DefaultArticleBanner}
         alt="article image"
+        loading="lazy"
         className="object-cover w-full h-[10rem] rounded-lg mb-4"
       />
 

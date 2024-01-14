@@ -12,8 +12,9 @@ export const Header = () => {
             <NavLink to="/" className="flex items-center">
               <img
                 src={Avatar}
-                className="h-6 mr-3 rounded-full sm:h-9"
                 alt="Website Logo"
+                loading='lazy'
+                className="h-6 mr-3 rounded-full sm:h-9"
               />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 Angelo Arcillas
