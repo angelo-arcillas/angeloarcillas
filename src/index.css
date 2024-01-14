@@ -84,15 +84,15 @@
 
   /* Handle */
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: rgba(79, 70, 229, .5);
+    background: rgba(67, 56, 202, .5);
     /* border-top: 30px solid gray; */
   }
 
   /* Handle on hover */
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: rgba(79, 70, 229, .75);
+    background: rgba(67, 56, 202, .75);
   }
 
   a.active {
-    @apply text-indigo-600 dark:text-white;
+    @apply text-indigo-700 dark:text-white;
   }

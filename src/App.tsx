@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './Components/Header/Header';
 import { Home } from './Pages/Home';
-import { Posts } from './Pages/Posts';
+import { Articles } from './Pages/Articles';
 import { Register } from './Pages/Auth/Register';
 import { Login } from './Pages/Auth/Login';
 import { Footer } from './Components/Footer/Footer';
@@ -20,7 +20,7 @@ const App = () => {
           <section className="mx-auto min-h-[70vh] max-w-screen-2xl">
             <div>
               <Routes>
-                <Route path="/posts" Component={Posts} />
+                <Route path="/articles" Component={Articles} />
                 <Route path="/about" Component={Home} />
                 <Route path="/" Component={Home} />
                 <Route path="/login" Component={Login} />
